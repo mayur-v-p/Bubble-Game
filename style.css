@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+
+.panel{
+    height: 80%;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.ptop{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.elem div{
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+.pbottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+}
+
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 50px;
+    position: relative;
+
+}
+
+.bubble :hover{
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+
