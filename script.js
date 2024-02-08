@@ -45,13 +45,13 @@ document.querySelector(".pbottom").addEventListener("click",function(details){
     
 
     if(ans === randnum){
-        details.target.style.backgroundColor = "green"
+        // details.target.style.backgroundColor = "green"
             scoreincrease();
             hit();
             bubble();
             
     }else{
-        details.target.style.backgroundColor = "red"
+        // details.target.style.backgroundColor = "red"
     }
 
 })
